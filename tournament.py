@@ -20,7 +20,7 @@ while num_teams_remaining > 1:
   current_round += 1
 
 # display the bracket
-for round, match ups in bracket.items():
+for round, match_ups in bracket.items():
   print(f"Round {round}:")
-  for match in match ups:
+  for match in match_ups:
     print(f"  {match[0]} vs {match[1]}")
